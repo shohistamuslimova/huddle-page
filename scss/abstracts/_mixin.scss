@@ -1,0 +1,21 @@
+@mixin reset {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@mixin fontSetting($ff, $c, $lh, $fw) {
+  font-family: $ff;
+  color: $c;
+  line-height: $lh;
+  font-weight: $fw;
+}
+
+@mixin buttons($pt, $pb, $pl, $pr, $w, $mw, $bg) {
+  padding-top: $pt;
+  padding-bottom: $pb;
+  padding-left: $pl;
+  padding-right: $pr;
+  width: $w;
+  max-width: $mw;
+  background-color: $bg;
+}
